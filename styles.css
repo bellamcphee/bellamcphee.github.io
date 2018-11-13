@@ -1,0 +1,50 @@
+body {
+	background: #ffff00;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 60%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Cochin", Gadget, sans-serif;
+	color: #000000; 
+	text-align: center; 
+	font-size: 32px; /*you can change all font sizes by changing the pixels*/
+	font-weight: bold;
+}
+/*image style*/
+img {
+	width:1000px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center
+    border:#000000; 
+}
+
+p {	
+	font-size: 20px;
+	text-align: justify; /*may change this to left, right or center*/
+	width: 800px; /*changes width of paragraphs*/
+	color: #000000; /*change this to the hexidecimal number for the paragraph text color you prefer*/
+	padding: 5px 10px;
+	font-family: "Cochin", Gadget, sans-serif;
+}
+/*unvisited link style*/
+a {
+	color: #FF0078;
+}
+/*hovered over link style*/
+a:hover {
+	color: #67604B; 
+}
+/*visited link style*/
+a:visited {
+	color: #0E0E0D; 
+}
+/*list item style*/
+li {
+	font-size: 16px;
+	font-style:italic; 
+	color: #000000;
+	}
